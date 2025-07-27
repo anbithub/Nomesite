@@ -58,12 +58,15 @@ body, html {
 h1 {
   font-size: 2em;
   margin-bottom: 0.5em;
+  color: #ff7f50
+
 }
 
 p {
   font-size: 1em;
   opacity: 0.85;
   margin-bottom: 1.5em;
+  color: #a3f7bf
 }
 
 .card {
