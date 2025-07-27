@@ -18,15 +18,42 @@
     <div class="card">
       <h2>DESKRIPSI LENGKAP NOME:</h2>
       <ul>
-        <li>💯NOMEapp adalah game sosial media untuk para jiwa jiwa yang tenang bersatu dalam satu getaran resonasi kedamaian dan ketengan bathin</li>
-        <li>🎁Fitur fitur nome yang pertama yaitu login tanpa pasword atau autentikasi konvensional seperti email dan nomor tlp tapi langsung menggunakan biometrik dan getaran hati juga sentuhan alami pengguna</li>
-        <li>🏩setelah itu nomes (pengguna nome) akan masuk dalam sebuah ruangan kedamaian (space of peace) untuk merenung dan introspeksidiri sehingga mampu menggetarkan resonasi jiwa dan setelah terbentuk akan dihubungkan dengan nomes yang satu frekuensi sambil menunggu lintas awan yaitu awan kesejukan yang akan lewat dua kali dalam sehari dimana para nomes bisa memberikan satu oesan curahan hati dan satu kuota react untuk merespon pesan nomes lain . setelah itu jika kedua nomes saling react pesan pada orang sama pada tiga waktu berturut turut akan mendapatkan momen khusus untuk saling berinteraksi dengan batasan jumlah oesan dan waktu belum selesai masih banyak yang harus di sampaikan tapi cukup sampai sini dulu nanti dilanjut</li>
+        <li>💯 NOMEapp adalah game sosial media untuk para jiwa jiwa yang tenang bersatu dalam satu getaran resonasi kedamaian dan ketenangan bathin</li>
+        <li>🎁 Fitur-fitur NOME yang pertama yaitu login tanpa password atau autentikasi konvensional seperti email dan nomor telepon, tapi langsung menggunakan biometrik dan getaran hati juga sentuhan alami pengguna</li>
+        <li>🏩 Setelah itu Nomes (pengguna NOME) akan masuk dalam sebuah ruangan kedamaian (space of peace) untuk merenung dan introspeksi diri sehingga mampu menggetarkan resonasi jiwa. Setelah terbentuk akan dihubungkan dengan Nomes yang satu frekuensi sambil menunggu lintas awan yaitu awan kesejukan yang akan lewat dua kali dalam sehari, di mana para Nomes bisa memberikan satu pesan curahan hati dan satu kuota react untuk merespon pesan Nomes lain. Jika kedua Nomes saling react pesan pada orang yang sama dalam tiga waktu berturut-turut, akan mendapatkan momen khusus untuk saling berinteraksi dengan batasan jumlah pesan dan waktu. Belum selesai... masih banyak yang harus disampaikan, tapi cukup sampai sini dulu — nanti dilanjut.</li>
       </ul>
     </div>
 
+    <div class="card">
+      <h2>Ikuti Saya di Sosial Media:</h2>
+      <div class="social-links">
+        <a href="https://t.me/nurohman09" target="_blank">📢 Telegram</a>
+        <a href="https://x.com/nurihman01" target="_blank">🐦 Twitter</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Dukung Saya 🙏</h2>
+      <p>Kamu bisa berdonasi via Bitcoin:</p>
+      <div class="donation-address">
+        <input type="text" id="btcAddress" value="1MrLouJba9AzvETZQr8yusBrpraQNanrB4" readonly />
+        <button onclick="copyAddress()">📋 Salin</button>
+      </div>
+    </div>
+
     <footer>
-      <p>© 2025 Yocto | Dibimbing oleh Myra ✨</p>
+      <p>© 2025 nurgondrong | Dibimbing oleh Myra ✨</p>
     </footer>
   </div>
+
+  <script>
+    function copyAddress() {
+      const addressInput = document.getElementById("btcAddress");
+      addressInput.select();
+      addressInput.setSelectionRange(0, 99999);
+      document.execCommand("copy");
+      alert("Alamat Bitcoin disalin!");
+    }
+  </script>
 </body>
 </html>
